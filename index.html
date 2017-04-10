@@ -10,7 +10,7 @@
     
     <title>
         
-        Hexo
+        Kotlin
     </title>
 
     <!-- Meta & Info -->
@@ -28,14 +28,14 @@
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#0097A7">
-    <meta name="author" content="John Doe">
+    <meta name="author" content="Aaron He">
     <meta name="description" content="null">
     <meta name="keywords" content="null">
 
     <!-- Favicons -->
-    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
-    <link rel="icon" sizes="192x192" href="/img/favicon.png">
-    <link rel="apple-touch-icon" href="/img/favicon.png">
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.ico">
+    <link rel="icon" sizes="192x192" href="/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/img/favicon.ico">
 
     <!--iOS -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -51,12 +51,12 @@
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Hexo">
+    <meta name="apple-mobile-web-app-title" content="Kotlin">
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com">
+    <meta property="og:url" content="http://kotlin.pub">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Hexo">
+    <meta property="og:title" content="Kotlin">
     <meta property="og:description" content="null">
     
 
@@ -144,12 +144,7 @@
 
     <style>
       body{
-        background-color: #F5F5F5;
-      }
-
-      /* blog_info bottom background */
-      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
-        background-color: #fff;
+        background-image: url(/img/bg.png);
       }
     </style>
 
@@ -231,7 +226,7 @@
         <p class="index-top-block-slogan"><a href="#">
         
             
-                Hi, nice to meet you
+                Hello Kotlin
             
         
         </a></p>
@@ -241,10 +236,10 @@
     <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
         <!-- Author Avatar -->
         <div id="author-avatar">
-            <img src="/img/avatar.png" width="32px" height="32px" alt="avatar">
+            <img src="/img/user_avatar.png" width="32px" height="32px" alt="avatar">
         </div>
         <div>
-            <strong>John Doe</strong>
+            <strong>Aaron He</strong>
         </div>
     </div>
 </div>
@@ -264,7 +259,7 @@
             <input class="mdl-textfield__input search-input" type="search" name="q" id="search" placeholder="">
             <label id="search-form-label" class="mdl-textfield__label" for="search"></label>
 
-            <input type="hidden" name="sitesearch" value="http://yoursite.com">
+            <input type="hidden" name="sitesearch" value="http://kotlin.pub">
         </form>
     </div>
 
@@ -285,7 +280,7 @@
     <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
         <!-- Blog Title -->
         <div>
-            <strong>Hexo</strong>
+            <strong>Kotlin</strong>
         </div>
         <div class="section-spacer"></div>
 
@@ -309,7 +304,7 @@
             
 
             
-                <a class="index_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Hexo&url=http://yoursite.com/&pic=&searchPic=false&style=simple" target="_blank">
+                <a class="index_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Kotlin&url=http://kotlin.pub/&pic=&searchPic=false&style=simple" target="_blank">
                     <li class="mdl-menu__item mdl-js-ripple-effect">
                         分享到微博
                     </li>
@@ -317,7 +312,7 @@
             
 
             
-                <a class="index_share-link" href="https://twitter.com/intent/tweet?text=Hexo&url=http://yoursite.com/&via=John Doe" target="_blank">
+                <a class="index_share-link" href="https://twitter.com/intent/tweet?text=Kotlin&url=http://kotlin.pub/&via=Aaron He" target="_blank">
                     <li class="mdl-menu__item mdl-js-ripple-effect">
                         分享到 Twitter
                     </li>
@@ -325,7 +320,7 @@
             
 
             
-                <a class="index_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com//index.html" target="_blank">
+                <a class="index_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://kotlin.pub//index.html" target="_blank">
                     <li class="mdl-menu__item mdl-js-ripple-effect">
                         分享到 Facebook
                     </li>
@@ -333,7 +328,7 @@
             
 
             
-                <a class="index_share-link" href="https://plus.google.com/share?url=http://yoursite.com/" target="_blank">
+                <a class="index_share-link" href="https://plus.google.com/share?url=http://kotlin.pub/" target="_blank">
                     <li class="mdl-menu__item mdl-js-ripple-effect">
                         分享到 Google+
                     </li>
@@ -342,6 +337,12 @@
 
             
 
+            
+                <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Kotlin&title=Kotlin&summary=null&pics=http://kotlin.pub/img/favicon.ico&url=http://kotlin.pub/" target="_blank">
+                    <li class="mdl-menu__item">
+                        分享到 QQ
+                    </li>
+                </a>
             
 
             
@@ -388,10 +389,10 @@
         <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
             <!-- Author Avatar -->
             <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="John Doe's avatar">
+                <img src="/img/user_avatar.png" width="44px" height="44px" alt="Aaron He's avatar">
             </div>
             <div>
-                <strong>John Doe</strong>
+                <strong>Aaron He</strong>
                 <span>4月 10, 2017</span>
             </div>
         </div>
@@ -462,12 +463,12 @@
 
     <!-- Sidebar Avatar -->
     <div class="sidebar-image">
-        <img src="/img/avatar.png" alt="John Doe's avatar">
+        <img src="/img/user_avatar.png" alt="Aaron He's avatar">
     </div>
 
     <!-- Sidebar Email -->
     <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
-        youremail@email.com
+        534071893@qq.com
         <b class="caret"></b>
     </a>
 </div>
@@ -658,7 +659,7 @@ It will not impact the appearance and can give developers a lot of support :)
                 var fd = new Date();
                 document.write(fd.getFullYear());
             </script>
-            &nbsp;Hexo
+            &nbsp;Kotlin
         </div>
 
         <!-- Paradox Footer Right Section -->
